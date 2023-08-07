@@ -1,0 +1,211 @@
+/* Desenvolva sua estilização aqui ... */
+@import url(globalStyles.css);
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+
+    height: 139px;
+
+    
+}
+
+.header__title{
+    color: var(--color-grey-1);
+
+    font-weight: 600;
+    font-size: var(--font-1);
+    
+}
+
+.mode__controller{
+    background-color: transparent;
+    border: none;
+
+    width: 16px;
+    height: 18px;
+}
+
+section{
+    margin-top: 1rem;
+}
+
+
+.genre__container{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+
+.genre__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    list-style-type: none;
+
+    gap: 1rem;
+    height: 139px;
+}
+
+.list__item{
+    width: 62px;
+    height: 32px;
+
+    align-items: center;
+}
+
+.list__button{
+    width: 62px;
+    height: 32px;
+
+    background: var(--color-grey-8);
+    color: var(--color-grey-2);
+
+    font-weight: 500;
+    font-size: var(--font-3);
+    
+    border: 1px solid var(--color-grey-8);
+    border-radius: var(--radius-1);
+}
+
+.range__container{
+    margin-top: 1.875rem;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.25rem;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subTitle{
+    font-weight: 600;
+    font-size: var(--font-2);
+
+    color: var(--color-grey-1);
+}
+
+.albums__container{
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+
+    margin-top: 3.25rem;
+    margin-bottom: 4rem;
+}
+
+.albums__list{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 3rem;
+}
+
+.card__container{
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: var(--color-grey-8);
+
+    border-radius: 4px;   
+
+}
+
+.card__img{
+    width: 308px;
+    height: 122.38px;
+
+    border-radius: 4px 4px 0px 0px;
+}
+
+.description__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 0rem 1.25rem;
+    
+
+    height: 200px;
+    
+}
+
+.small__container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+}
+
+.price__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.purchcase__button{
+    background: var(--color-grey-7);
+    border: 1px solid var(--color-grey-7);
+    padding: .125rem .5rem;
+    color: var(--color-grey-2);
+    border-radius: var(--radius-1);
+    font-weight: 500;
+    font-size: var(--font-3);
+}
+
+.card__price{
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--font-3);
+}
+
+small{
+    color: var(--color-grey-2);
+    font-weight: 500;
+    font-size: .75rem;
+}
+
+.price{
+    color: var(--color-grey-2);
+}
+
+.slider__container{
+    width: 100%;
+}
+
+.slider{
+    opacity: 0.7;
+    width: 100%;
+    cursor: pointer; 
+}
+
+.list__button:hover{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.purchcase__button:hover{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    transition: 0.5s;
+    cursor: pointer;
+}
